@@ -1,0 +1,45 @@
+.body-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+.title {
+    font-size: 50px;
+    letter-spacing: 7px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.games {
+    
+    margin: 20px;
+}
+.image {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: column;
+    margin-top: 15px;
+    justify-content: center;
+
+}
+
+.play {
+    background-color: #abefff;
+    padding: 10px;
+    margin: 40px 5px;
+    border-radius: 10px;
+    justify-content: center;
+    font-family:'Press Start 2P', cursive;
+}
+.play:hover {
+    background-color: #5cbcd2;
+    cursor: pointer;
+}
